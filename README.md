@@ -1,9 +1,9 @@
 # Credit-Risk-Prediction
 Authors: Fitri Octaviani
-
+ 
 # Overview
 The general objective is to develop a machine-learning model that can accurately predict credit risk based on historical data.
-
+ 
 # Success Criteria
 The following metrics will be used to determine the project's success:
 1. Our analytical capabilities provide banks with actionable insights into the credit risk of customers
