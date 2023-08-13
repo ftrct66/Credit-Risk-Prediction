@@ -39,3 +39,20 @@ The data used in this project is from Kaggle.
 | Avg_Utilization_Ratio | Average Card Utilization Ratio |
 | Naive_Bayes_Classifier_attribution | Naive Bayes |
 | Naive_Bayes_Classifier_attribution | Naive Bayes |
+
+# Modelling
+The model is used in Gaussian Naive Bayes, Gradient Boosting, and KNeighbors. After that, the selection of the best model was carried out based on the evaluation of model performance through cross-validation. The best model obtained is GradientBoosting and is calculated using hyperparameter tuning with a train set accuracy of 96% and a test set of 91%.
+
+# Project Conclusion
+1. Based on Exploratory Data Analysis (EDA) :
+- The credit_risk column in the data set shows an unequal class distribution, with lower risk than high risk
+- The average age of customers is 46 years with an age range of 26 to 73 years
+- The average customer relationship with the bank is around 36 months (3 years)
+- The average credit limit is about $8632
+- There is a pattern showing that individuals with lower levels of education tend to have lower credit risk
+- The average customer uses the “Blue” category card compared to other categories
+- In terms of credit risk, males are more at risk than females
+2. Business Insights :
+- In the world of finance, credit risk management plays an important role in ensuring a balance between lending to customers and minimizing risk. To achieve this goal, a solid strategy is needed that focuses on prudent risk management.
+- By understanding the customer's risk profile, we can design specific strategies for each segment. This makes it possible to provide credit offers that are more in line with the abilities and characteristics of each group thereby reducing overall risk.
+- Collaborating with credit research institutions and external data service providers can provide additional insights. Outside information can provide a broader view of the customer and the economic environment that may affect the customer's ability to pay.
